@@ -1,8 +1,7 @@
-public class MotoEletrica extends Moto{
-    
-    @Override
-    public void draw(){
-        System.out.println("Desenhou moto eletrica");
-    }
+public class MotoEletrica extends Moto {
 
+    @Override
+    public void acelerar() {
+        System.out.println("acelerou a moto elétrica");
+    }
 }

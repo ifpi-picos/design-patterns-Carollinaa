@@ -1,7 +1,7 @@
-public class MotoCombustao extends Moto{
-    
+public class MotoCombustao extends Moto {
+
     @Override
-    public void draw(){
-        System.out.println("Desenhou uma moto a cambustão");
+    public void acelerar() {
+        System.out.println("Moto a combustão acelerando");
     }
 }

@@ -1,6 +1,13 @@
-public class CarroCombustao extends Carro{
+public class CarroCombustao extends Carro {
 
-    public void draw(){
-        System.out.println("Desenhou um carro a cambustão");
+    @Override
+    public void acelerar() {
+        System.out.println("acelerou o carro a combustão");
     }
+
+
+    public void dirigir(){
+        System.out.println("acelerou o carro a cambustão");
+    }
+
 }

@@ -1,5 +1,4 @@
 public abstract class Carro {
-    
-    public abstract void  draw();
-    
+
+    public abstract void acelerar();
 }

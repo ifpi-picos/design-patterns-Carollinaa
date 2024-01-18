@@ -1,6 +1,4 @@
 public abstract class Moto {
 
-    
-    public abstract void  draw();
-    
+    public abstract void acelerar();
 }

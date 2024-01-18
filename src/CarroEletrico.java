@@ -1,9 +1,7 @@
+public class CarroEletrico extends Carro {
 
-public class CarroEletrico extends Carro{
-
-    public void draw(){
-        System.out.println("Desenhando carro eletrico");
+    @Override
+    public void acelerar() {
+        System.out.println("acelerou o carro elétrico");
     }
-    
-     
 }
