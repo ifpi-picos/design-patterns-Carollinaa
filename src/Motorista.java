@@ -6,8 +6,8 @@ public class Motorista {
 
     public Motorista(FabricaVeiculo fabrica) {
         this.fabrica = fabrica;
-        this.carro = fabrica.createCarro();
-        this.moto = fabrica.createMoto();
+        this.carro = this.fabrica.createCarro();
+        this.moto = this.fabrica.createMoto();
     }
 
     public void dirigir() {

@@ -5,9 +5,4 @@ public class CarroCombustao extends Carro {
         System.out.println("acelerou o carro a combustão");
     }
 
-
-    public void dirigir(){
-        System.out.println("acelerou o carro a cambustão");
-    }
-
 }
